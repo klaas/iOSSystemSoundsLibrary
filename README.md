@@ -1,5 +1,4 @@
-iOSSystemSoundsLibrary
-======================
+#iOSSystemSoundsLibrary
 - List of all system sounds used in iOS
 - Run project on your iOS device to test all available system sounds
 - iOS Simulator does NOT play system sounds
@@ -21,6 +20,9 @@ SystemSoundID soundID;
 AudioServicesCreateSystemSoundID((__bridge_retained CFURLRef)fileURL,&soundID);
 AudioServicesPlaySystemSound(soundID);
 ```
+
+# Swift version
+see https://github.com/klaas/SwiftySystemSounds
 
 List of SystemSoundIDs
 -------------------------
